@@ -12,7 +12,7 @@ module.exports = {
 
   deploy : {
     production : {
-      user : 'root',
+      user : 'pi',
       host : 'wakanda.local',
       ref  : 'origin/master',
       repo : 'git@github.com:keymetrics/wakanda-hydroplant.git',
